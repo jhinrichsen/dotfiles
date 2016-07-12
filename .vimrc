@@ -38,4 +38,7 @@ let g:monokai_diffmode="high"
 " select ECMAScript syntax checker
 let g:syntastic_javascript_checkers=['standard']
 
+" Always syntax highlight complete file
+autocmd BufEnter * :syntax sync fromstart
+
 " EOF
