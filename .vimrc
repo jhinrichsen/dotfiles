@@ -12,6 +12,9 @@ set wrapmargin=2
 " highlight complete line
 set cursorline
 
+" always show status line
+set laststatus=2
+
 " indentation is 2 spaces, no tabs
 set autoindent
 set expandtab
